@@ -44,7 +44,7 @@
                 </ul>
     
                 <!-- btn login/registro -->
-                <div th:if="${session.usuariosession == null}" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                <div th:if="${session.usuariosession == null}" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" id="formulario">
                     <a style="color: #DFE2F2!important;position: relative;" th:href="@{/login}" class="btn btn-outline-success btn-success-bg-subtle me-2">Iniciar Sesión</a>
                 </div>
                 <div th:if="${session.usuariosession == null}" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
