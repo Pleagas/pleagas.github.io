@@ -2,7 +2,24 @@
     box-sizing: border-box;
   }
   
-
+  .imagen-container {
+    text-align: center; /* Centra la imagen en el div */
+    padding: 20px; /* Espacio interno opcional */
+  }
+  
+  .galeria {
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 10px; /* Espacio entre las imágenes */
+    width: 80%; /* Ancho del contenedor de la galería */
+    max-width: 800px; /* Ancho máximo del contenedor */
+  }
+  
+  .galeria img {
+    width: 100%; /* Ocupa todo el ancho de la celda */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
   
   .form-container {
     margin: 0 auto;
