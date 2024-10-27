@@ -100,3 +100,45 @@
     background-color: #45a049;
   }
     
+  .container-2 {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .container-2 h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  .container-2 p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666666;
+  }
+  
+
+  
+  .btn-yes {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .btn-yes:hover {
+    background-color: #45a049;
+  }
+  
+  .btn-no {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .btn-no:hover {
+    background-color: #e53935;
+  }
