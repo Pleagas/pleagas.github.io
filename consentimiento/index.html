@@ -53,41 +53,27 @@
                     <a href="index.html" id="logo-link">
                         <img src="logo.jpg" alt="Logo de la Empresa" class="logo">
                     </a>
-                   <!---- <a style="color: #DFE2F2!important;font-size: x-large;" class="navbar-brand text-rojo" th:href="@{/servicios}">Mode </a>
-                    <a style="color: #DFE2F2!important;font-size: x-large;" th:href="@{/servicios/proveedor}" class="navbar-brand text-rojo" sec:authorize="hasAnyRole('PROVEEDOR', 'ADMIN')"> nos  va</a>
-                    <a style="color: #DFE2F2!important;font-size: x-large;" th:href="@{/admin/dashboard}" class="navbar-brand text-rojo" sec:authorize="hasRole('ADMIN')">a</a>
-                    <a style="color: #DFE2F2!important;font-size: x-large;" th:href="@{/admin/usuarios}" class="navbar-brand text-rojo" sec:authorize="hasRole('ADMIN')">pagar</a> --->
-                </ul>
-    
-                <!-- btn login/registro -->
-                <div th:if="${session.usuariosession == null}" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" id="formulario">
-                    <a style="color: #DFE2F2!important;position: relative;" th:href="@{/login}" class="btn btn-outline-success btn-success-bg-subtle me-2">Iniciar Sesión</a>
-                </div>
-                <div th:if="${session.usuariosession == null}" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                    <a style="color: #DFE2F2!important;position: relative;"th:href="@{/registrar-usuario}" class="btn btn-outline-success btn-success-bg-subtle me-2">Registrarme</a>
-                </div>
-    
-    
-              
-    
+        
+            
             </div>
         </div>
     </nav>
     
     <main>
       
-            <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis">
-                <div class="col-lg-6 px-0">
-                    <h1 style="font-weight: 500;" class="display-4 fst-italic">Probando que los del ping pong sabemos mas</h1>
-                    <p class="lead my-3">Los NH vamos a tomar partners. Fin</p>
-                    <p class="lead mb-0">Para mas factos, <a href="https://www.twitch.tv/pleagas" target="_blank" class="text-body-emphasis fw-bold">click aqui</a></p>
-                </div>
+        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis">
+            <div class="col-lg-6 px-0">
+                <h1 style="font-weight: 500;text-align: center; " class="display-4 fst-italic">Proximamente activo..</h1>
+                <p class="lead my-3">Partners de videojuegos gratis</p>
+                <p class="lead my-3">Streams con comunidad divertida</p>
+                <p class="lead mb-0">Para conocerme <a href="https://www.twitch.tv/pleagas" target="_blank" class="text-body-emphasis fw-bold">click aqui</a></p>
             </div>
+        </div>
        
 
         <div class="form-container">
             <form id="simpleForm" onsubmit="return validateForm()">
-              <h2>Formulario de Contacto</h2>
+              <h2>Deja tu mensaje sobre una sección que te gustaría ver</h2>
               
               <label for="name">Nombre:</label>
               <input type="text" id="name" name="name" required>
