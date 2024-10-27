@@ -2,6 +2,16 @@
     box-sizing: border-box;
   }
   
+  .logo {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s; /* Transición suave */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Agranda el logo al pasar el mouse */
+}
+
   .imagen-container {
     text-align: center; /* Centra la imagen en el div */
     padding: 20px; /* Espacio interno opcional */
